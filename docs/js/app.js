@@ -1,7 +1,7 @@
 var app = angular.module('myApp', ['ngRoute', 'ngAnimate']);
 
 
-a/*pp.config(function ($routeProvider) {
+/*pp.config(function ($routeProvider) {
     $routeProvider
         .when("/portfolio", {
             templateUrl: "/portifolio/docs/partials/about.html",
@@ -16,7 +16,7 @@ a/*pp.config(function ($routeProvider) {
 
 app.config(function($routeProvider) {
     $routeProvider
-        .when("/projects", {
+        .when("#/projects", {
             templateUrl: "partials/header.html",
             //controller: "BookListCtrl"
         })
