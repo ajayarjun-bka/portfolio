@@ -1,31 +1,32 @@
 var app = angular.module('myApp', ['ngRoute', 'ngAnimate']);
 
 
-/*pp.config(function ($routeProvider) {
-    $routeProvider
-        .when("/portfolio", {
-            templateUrl: "/portifolio/docs/partials/about.html",
-            //controller: "graph"
-        })
-        .otherwise({
-            templateUrl: "/portifolio/docs/partials/header.html"
-        });
 
-});
-*/
 
 app.config(function($routeProvider) {
     $routeProvider
-        .when("#/projects", {
-            templateUrl: "partials/header.html",
+        .when("/", {
+            templateUrl: "/partials/header.html",
+            //templateUrl: "/portifolio/docs/partials/header.html",
             //controller: "BookListCtrl"
         })
-        .when("/kart", {
-            templateUrl: "partials/kart-list.html",
-            controller: "KartListCtrl"
+        .when("/projects", {
+            templateUrl: "/partials/projects.html",
+            //templateUrl: "/portifolio/docs/partials/projects.html",
+            //controller: "BookListCtrl"
+        })
+        .when("/about", {
+            templateUrl: "/partials/about.html",
+            //templateUrl: "/portifolio/docs/partials/about.html",
+            //controller: "KartListCtrl"
+        })
+        .when("/contact", {
+            templateUrl: "/partials/contact.html"
+            //templateUrl: "/portifolio/docs/partials/contact.html",
+            //controller: "KartListCtrl"
         })
         .otherwise({
-            redirectTo: "/projects"
+            redirectTo: "/"
         });
 });
 
