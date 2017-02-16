@@ -2,6 +2,12 @@
     width: 100%;
 }
 
+div.zoomed {
+    zoom: 3;
+    -moz-transform: scale(3);
+    -moz-transform-origin: 0 0;
+}
+
 .logo {
     padding: 10px;
     margin-right: 10px;
@@ -34,4 +40,13 @@
 
 .colour{
     background-color: #2C3E50 !important;
+}
+
+.name-imp {
+    display: block !important;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-size: 3.75em !important;
+
 }
