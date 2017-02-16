@@ -6,12 +6,12 @@ var app = angular.module('myApp', ['ngRoute', 'ngAnimate']);
 app.config(function($routeProvider) {
     $routeProvider
         .when("/", {
-            templateUrl: "/portifolio/partials/header.html",
+            templateUrl: "/partials/header.html",
             //templateUrl: "/portifolio/docs/partials/header.html",
             //controller: "BookListCtrl"
         })
         .when("/projects", {
-            templateUrl: "/portifolio/partials/projects.html",
+            templateUrl: "/partials/projects.html",
             //templateUrl: "/portifolio/docs/partials/projects.html",
             //controller: "BookListCtrl"
         })
