@@ -16,12 +16,12 @@ app.config(function($routeProvider) {
             //controller: "BookListCtrl"
         })
         .when("/about", {
-            templateUrl: "portifolio/partials/about.html",
+            templateUrl: "partials/about.html",
             //templateUrl: "/portifolio/docs/partials/about.html",
             //controller: "KartListCtrl"
         })
         .when("/contact", {
-            templateUrl: "portifolio/partials/contact.html"
+            templateUrl: "partials/contact.html"
             //templateUrl: "/portifolio/docs/partials/contact.html",
             //controller: "KartListCtrl"
         })
