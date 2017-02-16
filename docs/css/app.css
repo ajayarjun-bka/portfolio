@@ -20,3 +20,17 @@
     margin-left: 100px;
     margin-top: 15px;
 }
+
+
+
+
+.desc
+{
+    margin-top: 140px !important;
+    text-align: left;!important;
+    display: block;!important;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;!important;
+    text-transform: uppercase;!important;
+    font-weight: 700;!important;
+    font-size: 14pt;!important;
+}
