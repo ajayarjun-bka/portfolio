@@ -70,16 +70,16 @@ html, body {
 
 
 .slide {
-    position: relative;
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    /*height:80%;*/
+    height:80%;
 }
 .slide.ng-enter,
 .slide.ng-leave {
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 0.75s ease;
+    transition: all 0.75s ease;
 }
 .slide.ng-enter {
     left: 100%;
