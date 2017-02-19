@@ -5,8 +5,7 @@ app.config(function ($routeProvider) {
     $routeProvider
         .when("/", {
             templateUrl: "partials/header.html",
-            //templateUrl: "/portifolio/docs/partials/header.html",
-            //controller: "BookListCtrl"
+            controller: "intro"
         })
         .when("/projects", {
             templateUrl: "partials/projects.html",
@@ -15,13 +14,12 @@ app.config(function ($routeProvider) {
         })
         .when("/about", {
             templateUrl: "partials/about.html",
-            //templateUrl: "/portifolio/docs/partials/about.html",
             //controller: "KartListCtrl"
         })
         .when("/contact", {
-            templateUrl: "partials/contact.html"
+            templateUrl: "partials/contact.html",
             //templateUrl: "/portifolio/docs/partials/contact.html",
-            //controller: "KartListCtrl"
+            controller: "intro"
         })
         .otherwise({
             redirectTo: "/"
@@ -29,10 +27,11 @@ app.config(function ($routeProvider) {
 });
 
 
-app.controller("HeaderCtrl", function ($scope) {
-    $scope.appDetails = {
-        title: "BooKart",
-        tagline: "We have 1 million books for you"
+app.controller("intro", function ($scope) {
+    $scope.bio = {
+        name: "AJAY ARJUN",
+        headline: "Java Develoepr,WebDeveloper",
+        shortIntro: "I am currently pursuing Master’s degree in Computer Science and actively looking"
     };
 });
 
@@ -93,5 +92,15 @@ app.controller("projects", function ($scope) {
         }
 
     ]
-})
+});
+
+$(document).ready(function () {
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = $(".navbar-collapse").hasClass("navbar-collapse in");
+        if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+            $("button.navbar-toggle").click();
+        }
+    });
+});
 

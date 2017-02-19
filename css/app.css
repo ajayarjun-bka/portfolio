@@ -58,7 +58,7 @@ html, body {
 }
 
 .project-desc {
-    text-align: left !important;
+    text-align: justify;
     display: block;
     color: #2C3E50;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
