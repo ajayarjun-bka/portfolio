@@ -33,8 +33,8 @@ app.config(function ($routeProvider) {
 app.controller("intro", function ($scope) {
     $scope.bio = {
         name: "AJAY ARJUN",
-        //headline: "Cloud Enthusiast | Web Developer",
-        headline:"",
+        headline: "JAVA | Cloud [AWS] | Web Developer",
+        //headline: "",
         shortIntro: "I hold a Masters in Computer Science with concentration in Database Systems and Cloud Computing. I am " +
         "passionate about AWS and Cloud Technologies and I develop web applications " +
         "during my leisure time. I love to learn new technologies and I keep myself " +
@@ -44,12 +44,12 @@ app.controller("intro", function ($scope) {
 });
 
 app.controller("projects", function ($scope) {
-    $scope.skills={
-        programmingLanguages:"Java, Python, C++",
-        webTechnologies:"JavaScript, HTML, CSS, jQuery, JSP, AngularJS, Node.js, ExpressJS, Spring Framework",
-        cloudTechnologies:"AWS [RDS, EC2, S3, Elastic beanstalk], Google App Engine, IBM",
-        databases:" MySQL, MongoDB, SQL Server",
-        others:"Windows, Linux, Eclipse, GitHub"
+    $scope.skills = {
+        programmingLanguages: "Java, Python, C++",
+        webTechnologies: "JavaScript, HTML, CSS, jQuery, JSP, AngularJS, Node.js, ExpressJS, Spring Framework",
+        cloudTechnologies: "AWS [RDS, EC2, S3, Elastic beanstalk], Google App Engine, IBM",
+        databases: " MySQL, MongoDB, SQL Server",
+        others: "Windows, Linux, Eclipse, GitHub"
     };
     $scope.projectDetails = [{
         title: "HTKS Game using Nao Robot for Children Suffering from Executive Function Disorder",
@@ -134,14 +134,19 @@ app.controller("experience", function ($scope) {
         roles: ["Contributed in the development of the website for Glaxo Smith Kline, using Adobe CQ 5.6, JavaScript, and jQuery.",
             "Authored and published web forms, and performed functionality testing.", "Lead a team of 3 members in the development of an " +
             "internal system to track issues, and monitor resource allocation."]
-    },{
+    }, {
         company: "HERACLIA LAB, UTA",
         position: "RESEARCH PROJECT",
         period: "JAN 2016 - MAY 2016",
         roles: ["Carried out a research on Attention-deficit/hyperactivity disorder with a team of # Members.",
             "Carried out a pilot study and collected feedback from experts for the basis for research" +
             "Built a interactive application with web interface to control a Humanoid robot which served as a medium to " +
-            "connect with children affected with ADHD","Published the research proceedings to PETRA 2016."
+            "connect with children affected with ADHD", "Published the research proceedings to PETRA 2016."
         ]
     }]
 });
+
+nav()
+{
+    var nav = $('#')
+}
