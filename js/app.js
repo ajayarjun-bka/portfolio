@@ -9,17 +9,19 @@ app.config(function ($routeProvider) {
         })
         .when("/projects", {
             templateUrl: "partials/projects.html",
-            //templateUrl: "/portifolio/docs/partials/projects.html",
             controller: "projects"
+        })
+        .when("/experience", {
+            templateUrl: "partials/experience.html",
+            controller: "experience"
         })
         .when("/about", {
             templateUrl: "partials/about.html",
-            //controller: "KartListCtrl"
+            controller: "about"
         })
         .when("/contact", {
             templateUrl: "partials/contact.html",
-            //templateUrl: "/portifolio/docs/partials/contact.html",
-            controller: "intro"
+            controller: "contact"
         })
         .otherwise({
             redirectTo: "/"
@@ -94,13 +96,14 @@ app.controller("projects", function ($scope) {
     ]
 });
 
-$(document).ready(function () {
-    $(document).click(function (event) {
-        var clickover = $(event.target);
-        var _opened = $(".navbar-collapse").hasClass("navbar-collapse in");
-        if (_opened === true && !clickover.hasClass("navbar-toggle")) {
-            $("button.navbar-toggle").click();
-        }
-    });
+app.controller("contact",function($scope){
+    $scope.info={
+        linkedin:"https://www.linkedin.com/in/ajayarjun/",
+        github:"https://github.com/ajayarjun-bka",
+        email:"ajayarjun.baalakrishnan@gmail.com",
+        phone:"682-252-3332"
+    }
 });
 
+app.controller("about");
+app.controller("experience");

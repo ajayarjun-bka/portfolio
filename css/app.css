@@ -93,3 +93,21 @@ html, body {
 .slide.ng-leave-active {
     left: -100%;
 }
+
+.box{
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #2C3E50 !important;
+}
+
+.contact-title {
+    text-align: center !important;
+    display: block;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-size: 14pt;
+
+}
