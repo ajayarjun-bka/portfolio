@@ -12,7 +12,7 @@ app.config(function ($routeProvider) {
             controller: "projects"
         })
         .when("/experience", {
-            templateUrl: "partials/wip.html",
+            templateUrl: "partials/experience.html",
             controller: "experience"
         })
         .when("/about", {
@@ -33,8 +33,12 @@ app.config(function ($routeProvider) {
 app.controller("intro", function ($scope) {
     $scope.bio = {
         name: "AJAY ARJUN",
-        headline: "Java Develoepr,WebDeveloper",
-        shortIntro: "I am currently pursuing Master’s degree in Computer Science and actively looking"
+        headline: "Cloud Enthusiast | Web Developer",
+        shortIntro: "I hold a Masters in Computer Science with concentration in Database Systems and Cloud Computing. I am " +
+        "passionate about AWS and Cloud Technologies and I develop web applications " +
+        "during my leisure time.I love to learning  new technologies  and I keep myself " +
+        "updated with latest trends in the industry. I will be graduating this May and",
+        job: "'I am actively looking for full-time opportunities as a software developer'"
     };
 });
 
@@ -97,14 +101,37 @@ app.controller("projects", function ($scope) {
     ]
 });
 
-app.controller("contact",function($scope){
-    $scope.info={
-        linkedin:"https://www.linkedin.com/in/ajayarjun/",
-        github:"https://github.com/ajayarjun-bka",
-        email:"ajayarjun.baalakrishnan@gmail.com",
-        phone:"682-252-3332"
+app.controller("contact", function ($scope) {
+    $scope.info = {
+        linkedin: "https://www.linkedin.com/in/ajayarjun/",
+        github: "https://github.com/ajayarjun-bka",
+        email: "ajayarjun.baalakrishnan@gmail.com",
+        phone: "682-252-3332"
     }
 });
 
-app.controller("about");
-app.controller("experience");
+app.controller("experience", function ($scope) {
+    $scope.jobs = [{
+        company: "MS.SWAMINATHAN RESEACH FOUNDATION",
+        position: "WEB DEVELOPER INTERN",
+        period: "JAN 2014 - MAR 2014",
+        roles: ["Performed requirement analysis and developed a planning system using Java, to schedule conferences " +
+        "among branch research centers and training sessions to students to increase productivity.", "Carried out " +
+        "migration of website from PHP to Java environment."
+        ]
+    }, {
+        company: "INFOSYS LIMITED, INDIA",
+        position: "SYSTEM ENGINEER",
+        period: "SEP 2014 - MAY 2015",
+        roles: ["Contributed in the development of the website for Glaxo Smith Kline, using Adobe CQ 5.6, JavaScript, and jQuery.",
+            "Authored and published web forms, and performed functionality testing.", "Lead a team of 3 members in the development of an " +
+            "internal system to track issues, and monitor resource allocation."]
+    },{
+        company: "HERACLIA LAB, UTA",
+        position: "RESEARCH PROJECT",
+        period: "JAN 2016 - MAY 2016",
+        roles: ["Contributed in the development of the website for Glaxo Smith Kline, using Adobe CQ 5.6, JavaScript, and jQuery.",
+            "Authored and published web forms, and performed functionality testing.", "Lead a team of 3 members in the development of an " +
+            "internal system to track issues, and monitor resource allocation."]
+    }]
+});
