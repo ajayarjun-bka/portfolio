@@ -12,11 +12,11 @@ app.config(function ($routeProvider) {
             controller: "projects"
         })
         .when("/experience", {
-            templateUrl: "partials/experience.html",
+            templateUrl: "partials/wip.html",
             controller: "experience"
         })
         .when("/about", {
-            templateUrl: "partials/about.html",
+            templateUrl: "partials/wip.html",
             controller: "about"
         })
         .when("/contact", {
@@ -24,7 +24,8 @@ app.config(function ($routeProvider) {
             controller: "contact"
         })
         .otherwise({
-            redirectTo: "/"
+            templateUrl: "partials/404.html"
+            //redirectTo: "/"
         });
 });
 
