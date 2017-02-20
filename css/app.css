@@ -161,3 +161,27 @@ html, body {
     font-size: 12pt;
 }
 
+.exp-period {
+    text-align: justify;
+    display: block;
+    color: #2C3E50;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 14pt;
+
+}
+
+
+@media (min-width: 768px) {
+    .exp-period {
+        float: right;
+        display: block;
+        color: #2C3E50;
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 12pt;
+
+    }
+}
