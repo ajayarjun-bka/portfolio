@@ -36,7 +36,7 @@ app.controller("intro", function ($scope) {
         headline: "Cloud Enthusiast | Web Developer",
         shortIntro: "I hold a Masters in Computer Science with concentration in Database Systems and Cloud Computing. I am " +
         "passionate about AWS and Cloud Technologies and I develop web applications " +
-        "during my leisure time.I love to learning  new technologies  and I keep myself " +
+        "during my leisure time.I love to learn new technologies  and I keep myself " +
         "updated with latest trends in the industry. I will be graduating this May and",
         job: "'I am actively looking for full-time opportunities as a software developer'"
     };
@@ -46,7 +46,7 @@ app.controller("projects", function ($scope) {
     $scope.projectDetails = [{
         title: "HTKS Game using Nao Robot for Children Suffering from Executive Function Disorder",
         description: "Developed a game on a humanoid robot which serves as rehabilitation therapy for children suffering " +
-        "from executive function disorder. Built a user interface  Built a user interface to control the robot and a video " +
+        "from executive function disorder. Built a user interface to control the robot and a video " +
         "recognition module to evaluate whether the children are performing the tasks correctly using a Kinect camera.",
         technologies: "Java, Java Servlets, JPA, JSP, Python, JavaScript, and Kinect Studio",
         github: "www"
@@ -130,8 +130,10 @@ app.controller("experience", function ($scope) {
         company: "HERACLIA LAB, UTA",
         position: "RESEARCH PROJECT",
         period: "JAN 2016 - MAY 2016",
-        roles: ["Contributed in the development of the website for Glaxo Smith Kline, using Adobe CQ 5.6, JavaScript, and jQuery.",
-            "Authored and published web forms, and performed functionality testing.", "Lead a team of 3 members in the development of an " +
-            "internal system to track issues, and monitor resource allocation."]
+        roles: ["Carried out a research on Attention-deficit/hyperactivity disorder with a team of # Members.",
+            "Carried out a pilot study and collected feedback from experts for the basis for research" +
+            "Built a interactive application with web interface to control a Humanoid robot which served as a medium to " +
+            "connect with children affected with ADHD","Published the research proceedings to PETRA 2016."
+        ]
     }]
 });
