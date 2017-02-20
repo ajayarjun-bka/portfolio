@@ -43,6 +43,13 @@ app.controller("intro", function ($scope) {
 });
 
 app.controller("projects", function ($scope) {
+    $scope.skills={
+        programmingLanguages:"Java, Python, C++",
+        webTechnologies:"JavaScript, HTML, CSS, jQuery, JSP, AngularJS, Node.js, ExpressJS, Spring Framework",
+        cloudTechnologies:"AWS [RDS, EC2, S3, Elastic beanstalk], Google App Engine, IBM",
+        databases:" MySQL, MongoDB, SQL Server",
+        others:"Windows, Linux, Eclipse, GitHub"
+    };
     $scope.projectDetails = [{
         title: "HTKS Game using Nao Robot for Children Suffering from Executive Function Disorder",
         description: "Developed a game on a humanoid robot which serves as rehabilitation therapy for children suffering " +
