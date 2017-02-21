@@ -15,9 +15,9 @@ app.config(function ($routeProvider) {
             templateUrl: "partials/experience.html",
             controller: "experience"
         })
-        .when("/about", {
-            templateUrl: "partials/wip.html",
-            controller: "about"
+        .when("/wip", {
+            templateUrl: "partials/wip.html"
+            //controller: "about"
         })
         .when("/contact", {
             templateUrl: "partials/contact.html",
