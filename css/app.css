@@ -111,12 +111,14 @@ html, body {
 
 }
 .motive{
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: capitalize;
+    text-align: left!important;
+    /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: capitalize;*/
     font-weight: 900;
     font-size: 16pt;
     font-style: italic;
-    color: #2c3e50;
+    /*color: #2c3e50;*/
+    color: #000000;
 }
 
 .exp-title {

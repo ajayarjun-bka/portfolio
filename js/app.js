@@ -38,8 +38,8 @@ app.controller("intro", function ($scope) {
         shortIntro: "I hold a Masters in Computer Science with concentration in Database Systems and Cloud Computing. I am " +
         "passionate about AWS and Cloud Technologies and I develop web applications " +
         "during my leisure time. I love to learn new technologies and I keep myself " +
-        "updated with latest trends in the industry. I will be graduating this May and",
-        job: "I am actively looking for full-time opportunities as a software developer"
+        "updated with latest trends in the industry. I will be graduating this May and,",
+        job: "I am actively looking for full-time opportunities as a Software Developer."
     };
 });
 
