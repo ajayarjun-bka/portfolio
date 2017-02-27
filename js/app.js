@@ -53,48 +53,49 @@ app.controller("projects", function ($scope) {
     };
     $scope.projectDetails = [{
         title: "HTKS Game using Nao Robot for Children Suffering from Executive Function Disorder",
-        description: "Developed a game on a humanoid robot which serves as rehabilitation therapy for children suffering " +
-        "from executive function disorder. Built a user interface to control the robot and a video " +
-        "recognition module to evaluate whether the children are performing the tasks correctly using a Kinect camera.",
+        description: "Developed a game that runs on a humanoid robot to aid in the rehabilitation of children suffering" +
+        " from executive function disorder. Built a user interface to control the robot and a video recognition module " +
+        "to evaluate whether the children are performing the tasks correctly using a Kinect camera",
         technologies: "Java, Java Servlets, JPA, JSP, Python, JavaScript, and Kinect Studio",
         github: "www"
     }, {
-        title: "Secure Cloud Storage on IBM Bluemix",
-        description: "Developed a web application that encrypts and store files on Bluemix storage. " +
-        "Implemented separate workspaces and version control for all users",
-        technologies: "python, AES Encryption",
+        title: "Web Platform for Navigating Hospital Admission Information",
+        description: "Java based web application which provides a user with useful information like the average length " +
+        "of stay, mortality rate and the aver-age cost of the treatment based on current admission records and diagnosis code",
+        technologies: "Java, Spring MVC, JPA, JSP",
         github: "www"
     },
         {
-            title: "Weather Data Repository using Amazon RDS and Elastic Cache",
-            description: "Implemented a Weather Data Repository on AWS using Amazon EC2 instance to carry out analysis. " +
-            "Built a user interface to generate queries dynamically and reduced the database access time by 10 folds by" +
-            " the implementation of Elastic Cache.",
-            technologies: "Python, AWS, Memcache",
+            title: " Secure Cloud Storage",
+            description: "Cloud application developed using python that encrypt and uploads the file into IBM Bluemix" +
+            " storage container or SQL DB. It allows the user to download and Decrypt the file, list all the files and " +
+            "deleting specified file that is available in the container. Implemented separate containers and version " +
+            "control for multiple users.",
+            technologies: ": Python, AES Encryption",
             github: "www"
         },
         {
-            title: "Hadoop Map Reduce and K means Clustering on Earthquake data set",
-            description: "Implemented Hadoop Map-reduce multi-node cluster on AWS to analyze earthquake patterns and " +
-            "used K-means clustering to visualize the results in the form of scatter plots and histograms using R and " +
-            "Shiny server.",
-            technologies: "Python, R, Google charts, AWS (RDS, S3, EC2, Elastic Beanstalk), MongoDB",
+            title: " Database Caching",
+            description: "A Web interface application that allow the user to generate random queries to carry out " +
+            "analysis on Weather Data, improves the performance of SQL DB access time using memcache, developed using " +
+            "Flask-web framework and python implemented in Amazon AWS. It also compares the performance " +
+            "of SQL DB with and without cache.",
+            technologies: "Python, AWS, Flask",
             github: "www"
         },
 
         {
-            title: "Static Code Analyser on AWS",
-            description: "Implemented online static code analyzers [rats and Pylint] as REST API and displayed results " +
-            "dynamically with versioning and multiuser support.",
-            technologies: "Node.js, Angular JS, AWS",
+            title: " Hadoop Map Reduce and K-Means Clustering on Earthquake data set",
+            description: "Implemented Hadoop Map-reduce multi-node cluster on AWS to analyze earthquake patterns and " +
+            "used K-means clustering to visualize the results in the form of charts",
+            technologies: "Python, R, AWS MongoDB",
             github: "www"
         },
         {
-            title: "Web Platform for Navigating Hospital Admission Information",
-            description: "Java based web application which provides a user with useful information like the average " +
-            "length of stay, mortality rate and the average cost of the treatment based on current admission records " +
-            "and diagnosis code.",
-            technologies: "Java, Java Servlets, JPA, JSP",
+            title: "Static Code Analyzer for Security Analysis",
+            description: "JImplemented online static code analyzers [rats and Pylint] as REST API and displayed results " +
+            "dynamically with versioning and multiuser support.",
+            technologies: " Node.js, Angular JS, AWS, OAUTH 2.0, Passport, ExpressJs",
             github: "www"
         },
         {
