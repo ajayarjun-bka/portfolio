@@ -33,12 +33,12 @@ app.config(function ($routeProvider) {
 app.controller("intro", function ($scope) {
     $scope.bio = {
         name: "AJAY ARJUN",
-        headline: "JAVA | Cloud [AWS] | Web Developer",
+        headline: "Software Developer",
         //headline: "",
         shortIntro: "I hold a Masters in Computer Science with concentration in Database Systems and Cloud Computing. I am " +
-        "passionate about AWS and Cloud Technologies and I develop web applications " +
-        "during my leisure time. I love to learn new technologies and I keep myself " +
-        "updated with latest trends in the industry. I will be graduating this May and,",
+        "love developing  applications  which make use of new technologies. Being passionate pushes me to learn technologies  and give my " +
+        "100% effort in what I do. I am fascinated about  chatbots and the power  Cloud computing hold with in. I constantly " +
+        "tinker with them. I will be graduating this May and, I am actively looking for full-time opportunities as a Software Developer.",
         job: "I am actively looking for full-time opportunities as a Software Developer."
     };
 });
