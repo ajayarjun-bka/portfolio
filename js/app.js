@@ -36,10 +36,10 @@ app.controller("intro", function ($scope) {
         headline: "Software Developer",
         //headline: "",
         shortIntro: "I am pursuing Masters in Computer Science with concentration in Database Systems and Cloud Computing " +
-        "from xx university (Texas). I love developing applications which make use of new technologies. Being passionate" +
-        " pushes me to learn technologies and give my 100% effort in what I do. I am fascinated about chatbots and the " +
-        "power Cloud computing hold with in. I constantly tinker with them. I will be graduating this May and I am " +
-        "actively looking for full-time opportunities as a Software Developer.",
+        "from xx university (Texas). I love developing applications which make use of new technologies. Being passionate " +
+        "pushes me to learn technologies and give my 100% effort in what I do. I am fascinated about chatbots and the " +
+        "power Cloud computing holds within. I constantly tinker with them. I will be graduating this May and " +
+        "I am actively looking for full-time opportunities as a Software Developer.",
         job: "I am actively looking for full-time opportunities as a Software Developer."
     };
 });
