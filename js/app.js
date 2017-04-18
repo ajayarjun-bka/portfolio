@@ -37,7 +37,7 @@ app.controller("intro", function ($scope) {
         //headline: "",
         shortIntro: "I am pursuing Masters in Computer Science with concentration in Database Systems and Cloud Computing " +
         "from University of Texas, Arlington. I love developing applications which make use of new technologies. Being passionate " +
-        "pushes me to learn new technologies and put complete effort in what I do. I am fascinated about chatbots and the " +
+        "pushes me to learn new technologies and put the maximum effort in what I do. I am fascinated about chatbots and the " +
         "power Cloud computing holds within. I constantly tinker with them. I will be graduating this May and " +
         "I am actively looking for full-time opportunities as a Software Developer.",
         job: "I am actively looking for full-time opportunities as a Software Developer."
