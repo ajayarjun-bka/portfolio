@@ -148,7 +148,7 @@ app.controller("experience", function ($scope) {
     }]
 });
 
-nav()
-{
-    var nav = $('#')
-}
+// nav()
+// {
+//     var nav = $('#')
+// }

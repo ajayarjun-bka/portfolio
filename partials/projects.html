@@ -3,7 +3,26 @@
 
         <div class="row">
             <div class="intro-text">
-                <span class="center-block"><h3>SKILLS</h3></span>
+                <span class="center-block"><h3 class="titles">LIVE PROJECTS</h3></span>
+                <hr class="star-light">
+            </div>
+            <div class="row">
+                <div class="wip"><a class="wip blink_me liveProjects"
+                                    href="http://ec2-35-164-146-54.us-west-2.compute.amazonaws.com"
+                                    target="_blank">Static Code Analyzer</a>
+                </div>
+                <div class="wip"><a class="wip blink_me liveProjects"
+                                    href="http://sheltered-citadel-14171.herokuapp.com/#"
+                                    target="_blank">Weather App using React</a>
+                </div>
+                <!--<div class="col-lg-12">
+                    <div class="wip"><a class="wip blink_me" href="#wip">CURRENT PROJECTS</a><span class="skills">Click to View</span>
+                    </div>-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="intro-text">
+                <span class="center-block"><h3 class="titles">SKILLS</h3></span>
                 <hr class="star-light">
             </div>
             <div class="col-lg-12 box">
@@ -17,19 +36,19 @@
         <br>
         <div class="row">
             <div class="intro-text">
-                <span class="center-block"><h3>PROJECTS</h3></span>
+                <span class="center-block"><h3 class="titles">PROJECTS</h3></span>
                 <hr class="star-light">
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <div ng-controller="projects" ng-repeat="project in projectDetails">
-                    <span class="project-title">
+                    <span class="exp-position">
                         {{project.title}}
                     </span>
-                    <span class="project-desc">{{project.description}}</span>
+                    <span class="exp-desc">{{project.description}}</span>
 
-                    <span class="project-desc">Technologies: {{project.technologies}}</span>
+                    <span class="exp-desc">Technologies: {{project.technologies}}</span>
                     <!--<span class="project-desc"><a href=""><i class="fa fa-fw fa-github project-desc"></i></a>Github link will be
                         updated shortly</span>-->
                     <br>
@@ -37,15 +56,6 @@
             </div>
         </div>
         <br>
-        <div class="row">
-            <div class="wip"><a class="wip blink_me"
-                                href="http://ec2-35-164-146-54.us-west-2.compute.amazonaws.com"
-                                target="_blank">Static Code Analyzer</a><span class="skills">Click to View</span>
-            </div>
-            <!--<div class="col-lg-12">
-                <div class="wip"><a class="wip blink_me" href="#wip">CURRENT PROJECTS</a><span class="skills">Click to View</span>
-                </div>-->
-            </div>
         </div>
     </div>
 </header>

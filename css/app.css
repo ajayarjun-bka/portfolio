@@ -6,7 +6,7 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
-    background-color: #18BC9C;
+    background-color: white;
 }
 
 .logo {
@@ -30,6 +30,7 @@ html, body {
 
 .desc {
     /* margin-top: 140px !important; */
+    color: #2C3E50 !important;
     text-align: justify;
     display: block;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -38,6 +39,7 @@ html, body {
 }
 
 .name-imp {
+    color: #2C3E50 !important;
     display: block !important;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     text-transform: uppercase !important;
@@ -93,6 +95,13 @@ html, body {
     left: -100%;
 }
 
+.titles{
+    color: #2C3E50 !important;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
 .box{
     border: solid;
     border-color: white;
@@ -122,6 +131,7 @@ html, body {
 }
 
 .exp-title {
+    color: #2C3E50 !important;
     text-align: left !important;
     display: block;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -163,6 +173,16 @@ html, body {
     font-size: 12pt;
 }
 
+.headerskills
+{
+    /* margin-top: 140px !important; */
+    color: #2C3E50 !important;
+    display: block !important;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-size: 1.75em !important;
+}
 .exp-period {
     text-align: justify;
     display: block;
@@ -231,4 +251,10 @@ html, body {
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
+}
+
+.liveProjects
+{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
