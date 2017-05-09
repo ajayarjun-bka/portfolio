@@ -58,10 +58,11 @@ html, body {
 }
 
 .project-title {
-    text-align: left !important;
+    text-align:left;
     display: block;
+    color: #2C3E50;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 14pt;
 
