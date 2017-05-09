@@ -30,11 +30,11 @@ html, body {
 
 .desc {
     /* margin-top: 140px !important; */
-    color: #2C3E50 !important;
+    color: #000 !important;
     text-align: justify;
     display: block;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 13pt;
 }
 
@@ -118,7 +118,7 @@ html, body {
     /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: capitalize;*/
     font-weight: 400;
-    font-size: 12pt;
+    font-size: 13pt;
     font-style: italic;
     /*color: #2c3e50;*/
     color: #000000;

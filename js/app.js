@@ -37,10 +37,9 @@ app.controller("intro", function ($scope) {
         //headline: "",
         shortIntro: "I am pursuing Masters in Computer Science from The University of Texas at Arlington. " +
         "I am passionate about Cloud Computing, Big Data and Web development." +
-        "I have extensively worked on Core Java, J2EE, Spring MVC, Web Services, SDLC and Agile Methodologies as System " +
-        "Engineer for One year with Infosys. I have developed full-stack (MEAN, React/Angular + Firebase, React/Angular " +
-        "+ Express) and client-side applications (React, Angular), applications. I have a strong grasp of object-oriented " +
-        "programming principles and design patterns, and I am currently focussing on gaining expertise in developing " +
+        " I have developed full-stack (MEAN, React/Angular + Firebase, React/Angular " +
+        "+ Express) and client-side applications (React, Angular), applications. and have a strong grasp of object-oriented " +
+        "programming principles and design patterns. Currently I am focussing on gaining expertise in developing " +
         "responsive single page applications using React and Redux.",
         ps:"Kindly go through the ",
         ps1:"and",
