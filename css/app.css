@@ -192,10 +192,10 @@ th, td {
 tr:hover {background-color: #000}
 
 .tablebox{
-    border: solid;
-    border-color: white;
-    padding: 10px;
-    background-color: #2C3E50 !important;
+    display: block;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
 }
 
 
