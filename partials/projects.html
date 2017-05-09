@@ -26,11 +26,14 @@
                 <hr class="star-light">
             </div>
             <div class="col-lg-12 box">
-                <span class="skills">Programming Languages: {{skills.programmingLanguages}} </span>
-                <span class="skills">Web Technologies: {{skills.webTechnologies}} </span>
-                <span class="skills">Cloud Technologies: {{skills.cloudTechnologies}} </span>
-                <span class="skills">Databases: {{skills.databases}} </span>
-                <span class="skills">Other Tools and IDE's: {{skills.databases}} </span>
+                <table class="mytable">
+                    <span class="skills"><tr><td>Languages & Scripts: </td><td>{{skills.programmingLanguages}}</td></tr></span>
+                    <span class="skills"><tr><td>JavaScript: </td><td>{{skills.javascript}}</td></tr></span>
+                    <span class="skills"><tr><td>Other Web Technologies: </td><td>{{skills.webTechnologies}}</td></tr></span>
+                    <span class="skills"><tr><td>Cloud Technologies: </td><td>{{skills.cloudTechnologies}}</td></tr></span>
+                    <span class="skills"><tr><td>Databases: </td><td>{{skills.databases}}</td></tr></span>
+                    <span class="skills"><tr><td class="rmborder">Other Tools & Methodologies: </td><td class="rmborder">{{skills.others}}</td></tr></span>
+                </table>
             </div>
         </div>
         <br>
@@ -59,3 +62,10 @@
         </div>
     </div>
 </header>
+
+<!--<span class="skills">Languages & Scripts: {{skills.programmingLanguages}} </span>-->
+<!--<span class="skills">JavaScript: {{skills.javascript}} </span>-->
+<!--<span class="skills">Other Web Technologies: {{skills.webTechnologies}} </span>-->
+<!--<span class="skills">Cloud Technologies: {{skills.cloudTechnologies}} </span>-->
+<!--<span class="skills">Databases: {{skills.databases}} </span>-->
+<!--<span class="skills">Other Tools & Methodologies: {{skills.others}} </span>-->

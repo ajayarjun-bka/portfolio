@@ -33,24 +33,29 @@ app.config(function ($routeProvider) {
 app.controller("intro", function ($scope) {
     $scope.bio = {
         name: "AJAY ARJUN",
-        headline: "Software Developer",
+        headline: "Java Developer | Full Stack Developer",
         //headline: "",
-        shortIntro: "I am pursuing Masters in Computer Science with concentration in Database Systems and Cloud Computing " +
-        "from University of Texas, Arlington. I love developing applications which make use of new technologies. Being passionate " +
-        "pushes me to learn new technologies and put the maximum effort in what I do. I am fascinated about chatbots and the " +
-        "power Cloud computing holds within. I constantly tinker with them. I will be graduating this May and " +
-        "I am actively looking for full-time opportunities as a Software Developer.",
-        job: "I am actively looking for full-time opportunities as a Software Developer."
+        shortIntro: "I am pursuing Masters in Computer Science from The University of Texas at Arlington. " +
+        "I am passionate about Cloud Computing, Big Data and Web development." +
+        "I have extensively worked on Core Java, J2EE, Spring MVC, Web Services, SDLC and Agile Methodologies as System " +
+        "Engineer for One year with Infosys. I have developed full-stack (MEAN, React/Angular + Firebase, React/Angular " +
+        "+ Express) and client-side applications (React, Angular), applications. I have a strong grasp of object-oriented " +
+        "programming principles and design patterns, and I am currently focussing on gaining expertise in developing " +
+        "responsive single page applications using React and Redux.",
+        ps:"Kindly go through the ",
+        ps1:"and",
+        ps2:" sections to know more about me"
     };
 });
 
 app.controller("projects", function ($scope) {
     $scope.skills = {
-        programmingLanguages: "Java, Python, C++",
-        webTechnologies: "JavaScript, HTML, CSS, jQuery, JSP, AngularJS, Node.js, ExpressJS, Spring Framework",
-        cloudTechnologies: "AWS [RDS, EC2, S3, Elastic beanstalk], Google App Engine, IBM",
-        databases: " MySQL, MongoDB, SQL Server",
-        others: "Windows, Linux, Eclipse, GitHub"
+        programmingLanguages: "Java, JavaScript, Python, C++",
+        javascript:"ES6/ES7, Node, React, Redux(Flux), AngularJs, Express, Socket.io",
+        webTechnologies: "HTML5, CSS3, SCSS, JSP, Spring Framework",
+        cloudTechnologies: "AWS [RDS, EC2, S3, Elastic beanstalk], Google App Engine, Microsoft Azure, IBM Bluemix",
+        databases: " MySQL, MongoDB, SQL Server, Oracle 10g ",
+        others: "Windows, Linux, Eclipse, Maven, Git, Agile methodology"
     };
     $scope.projectDetails = [{
         title: "HTKS Game using Nao Robot for Children Suffering from Executive Function Disorder",
