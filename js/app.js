@@ -50,7 +50,7 @@ app.controller("intro", function ($scope) {
 app.controller("projects", function ($scope) {
     $scope.skills = {
         programmingLanguages: "Java, JavaScript, Python, C++",
-        javascript:"ES6/ES7, Node, React, Redux(Flux), AngularJs, Express, Socket.io",
+        javascript:"ES6, Node, React, Redux(Flux), AngularJs, Express, Socket.io",
         webTechnologies: "HTML5, CSS3, SCSS, JSP, Spring MVC",
         cloudTechnologies: "AWS [RDS, EC2, S3, Elastic beanstalk], Google App Engine, Microsoft Azure, IBM Bluemix",
         databases: " MySQL, MongoDB, SQL Server, Oracle 10g ",
