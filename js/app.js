@@ -143,9 +143,15 @@ app.controller("experience", function ($scope) {
         company: "INFOSYS LIMITED, INDIA",
         position: "SYSTEM ENGINEER",
         period: "SEP 2014 - MAY 2015",
-        roles: ["Contributed in the development of the website for Glaxo Smith Kline, using Adobe CQ 5.6, JavaScript, and jQuery.",
-            "Authored and published web forms, and performed functionality testing.", "Lead a team of 3 members in the development of an " +
-            "internal system to track issues, and monitor resource allocation."]
+        roles: ["Developed a web based application with SDLC (Software Development Life Cycle) model using Java, JSP, " +
+        "Servlets, Bootstrap and HTML to track internal resource allocation.","Experience in creating templates, components, " +
+        "workflows, widgets, user groups and web pages specific to the site as per the business requirement using Adobe CQ 5.6.",
+            "Performed client side design and validations using HTML/HTML5, jQuery, CSS/CSS3 and JavaScript.",
+            "Wrote SQL queries to retrieve and insert data from/into the database using Oracle 10g.","Used Hibernate as " +
+            "ORM to map java classes to data base tables.","Deployed the web application on Apache Tomcat application server.",
+            "Involved in code review and in Unit testing using JUnit and Integration testing of the application.",
+            "Tested web pages for CSS pixel-level layout matching, consistency with browser versions and platform independence.",
+            "Wrote media queries for making appropriate CSS fixes while making the pages responsive for desktop, tablet & mobile break points."]
     }, {
         company: "HERACLIA LAB, UTA",
         position: "RESEARCH PROJECT",
