@@ -43,7 +43,19 @@ app.controller("intro", function ($scope) {
         "responsive single page applications using React and Redux.",
         ps: "Kindly go through the ",
         ps1: "and",
-        ps2: " sections to know more about me"
+        ps2: " sections to know more about me",
+        summary :["Over 3 years of experience in web application development using JAVA, J2EE, JDBC, Servlets, Spring, " +
+        "Hibernate, and JSP, HTML5, CSS/CSS3, JavaScript, AJAX, and JSON.","Strong in developing front-end for web applications " +
+        "using JavaScript frameworks and libraries like Angular JS, Node.js, React.js, D3.js and other MVC frameworks.",
+            "String knowledge in React.js, testing react components using karma and mocha, and Webpack.","Experience in " +
+            "all phases of Software Development Life Cycle (SDLC) methodologies like Agile/Scrum and Test-Driven Development (TDD).",
+            "Experience with AWS services like EC2 instances, Elastic Beanstalk, S3, RDS, Load Balancing and Auto scaling.",
+            "Experience in creating Conceptual Data Models, Use Case Diagrams, Class Diagrams and Sequence Diagrams using UML with Rational Rose.",
+            "Experience with Databases like Oracle 10g, MYSQL, MongoDB.","Extensively used SQL in writing queries, database triggers, and stored " +
+            "procedures.","Experience with version control service GIT and error logging using Log4J.","Developed test " +
+            "scripts with JUnit and used JMeter for performance Testing.","Utilized FindBugs and PMD for implementing coding " +
+            "guidelines, code analyzer and code coverage.","Experience in working with build & deployment tools like Maven and Ant.",
+            "Experience in interacting with clients/users in gathering the user requirements."]
     };
 });
 

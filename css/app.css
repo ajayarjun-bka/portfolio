@@ -156,6 +156,18 @@ html, body {
 
 }
 
+.exp-dummy {
+    text-align: justify;
+    display: block;
+    color: #2C3E50;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 11pt;
+
+}
+
 .skills
  {
     /* margin-top: 140px !important; */
@@ -313,4 +325,37 @@ tr:hover {background-color: #000}
     .view-animate.ng-leave.ng-leave-active {
         left: -100%;
     }
+}
+
+.summary{
+    padding: 2rem;
+    margin: 20px auto ;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    /*padding: 10px;*/
+    background-color: #18BC9C !important;
+    /*color:white;*/
+}
+
+.header-dummy{
+    margin-bottom: 6px;
+    color: #2C3E50;
+    text-align: center;
+    display: block;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16pt;
+}
+
+.summary-desc {
+    text-align: justify;
+    display: block;
+    color: white;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 11pt;
+
 }
