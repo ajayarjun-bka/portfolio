@@ -41,16 +41,16 @@ app.controller("intro", function ($scope) {
         "+ Express) and client-side applications (React, Angular), applications. and have a strong grasp of object-oriented " +
         "programming principles and design patterns. Currently I am focussing on gaining expertise in developing " +
         "responsive single page applications using React and Redux.",
-        ps:"Kindly go through the ",
-        ps1:"and",
-        ps2:" sections to know more about me"
+        ps: "Kindly go through the ",
+        ps1: "and",
+        ps2: " sections to know more about me"
     };
 });
 
 app.controller("projects", function ($scope) {
     $scope.skills = {
         programmingLanguages: "Java, JavaScript, Python, C++",
-        javascript:"ES6, Node, React, Redux(Flux), AngularJs, Express, Socket.io",
+        javascript: "ES6, Node, React, Redux, AngularJs, Express, Socket.io",
         webTechnologies: "HTML5, CSS3, SCSS, JSP, Spring MVC",
         cloudTechnologies: "AWS [RDS, EC2, S3, Elastic beanstalk], Google App Engine, Microsoft Azure, IBM Bluemix",
         databases: " MySQL, MongoDB, SQL Server, Oracle 10g ",
@@ -58,10 +58,11 @@ app.controller("projects", function ($scope) {
     };
     $scope.projectDetails = [{
         title: "HTKS Game using Nao Robot for Children Suffering from Executive Function Disorder",
-        description: "Developed a game that runs on a humanoid robot to aid in the rehabilitation of children suffering" +
-        " from executive function disorder. Built a user interface to control the robot and a video recognition module " +
-        "to evaluate whether the children are performing the tasks correctly using a Kinect camera",
-        technologies: "Java, Java Servlets, JPA, JSP, Python, JavaScript, and Kinect Studio",
+        description: "Implemented Head, Toes, Knees, and Shoulders (HTKS) task switching game using NAO robot which " +
+        "serves as rehabilitation therapy for children affected with Executive Function disorder. Built a user interface " +
+        "for controlling the NAO robot to play task switching game and other basic tasks. Developed a video recognition " +
+        "module to evaluate whether the children are performing the tasks correctly using Kinect camera.",
+        technologies: "Python, Java Script, Java Servlets, Nao Qi Framework, Choregraphe 2.43, Unity Engine, Kinect Studio",
         github: "www"
     }, {
         title: "Web Platform for Navigating Hospital Admission Information",
