@@ -338,9 +338,9 @@ tr:hover {background-color: #000}
     /*color:white;*/
 }
 
-.header-dummy{
+.summary-heading{
     margin-bottom: 6px;
-    color: #2C3E50;
+    color: white;
     text-align: center;
     display: block;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;

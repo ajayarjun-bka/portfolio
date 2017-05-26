@@ -47,7 +47,7 @@ app.controller("intro", function ($scope) {
         summary :["Over 3 years of experience in web application development using JAVA, J2EE, JDBC, Servlets, Spring, " +
         "Hibernate, and JSP, HTML5, CSS/CSS3, JavaScript, AJAX, and JSON.","Strong in developing front-end for web applications " +
         "using JavaScript frameworks and libraries like Angular JS, Node.js, React.js, D3.js and other MVC frameworks.",
-            "String knowledge in React.js, testing react components using karma and mocha, and Webpack.","Experience in " +
+            "Strong knowledge in React.js, testing react components using karma and mocha, and Webpack.","Experience in " +
             "all phases of Software Development Life Cycle (SDLC) methodologies like Agile/Scrum and Test-Driven Development (TDD).",
             "Experience with AWS services like EC2 instances, Elastic Beanstalk, S3, RDS, Load Balancing and Auto scaling.",
             "Experience in creating Conceptual Data Models, Use Case Diagrams, Class Diagrams and Sequence Diagrams using UML with Rational Rose.",
