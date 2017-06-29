@@ -35,12 +35,11 @@ app.controller("intro", function ($scope) {
         name: "AJAY ARJUN",
         headline: "Java Developer | Full Stack Developer",
         //headline: "",
-        shortIntro: "I am pursuing Masters in Computer Science from The University of Texas at Arlington. " +
+        shortIntro: "Recently graduated with a Masters in Computer Science from The University of Texas at Arlington. " +
         "I am passionate about Cloud Computing, Big Data and Web development." +
         " I have developed full-stack (MEAN, React/Angular + Firebase, React/Angular " +
         "+ Express) and client-side applications (React, Angular), applications. and have a strong grasp of object-oriented " +
-        "programming principles and design patterns. Currently I am focussing on gaining expertise in developing " +
-        "responsive single page applications using React and Redux.",
+        "programming principles and design patterns.",
         ps: "Kindly go through the ",
         ps1: "and",
         ps2: " sections to know more about me",
