@@ -39,7 +39,7 @@ app.controller("intro", function ($scope) {
         "I am passionate about Cloud Computing, Big Data and Web development." +
         " I have developed full-stack (MEAN, React/Angular + Firebase, React/Angular " +
         "+ Express) and client-side applications (React, Angular), applications. and have a strong grasp of object-oriented " +
-        "programming principles and design patterns.",
+        "programming principles and design patterns.    ",
         ps: "Kindly go through the ",
         ps1: "and",
         ps2: " sections to know more about me",
@@ -136,7 +136,7 @@ app.controller("contact", function ($scope) {
     $scope.info = {
         linkedin: "https://www.linkedin.com/in/ajayarjun/",
         github: "https://github.com/ajayarjun-bka",
-        email: "ajayarjun.baalakrishnan@gmail.com",
+        email: "arjun.bka@gmail.com",
         phone: "682-252-3332"
     }
 });
